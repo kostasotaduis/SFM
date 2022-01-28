@@ -1,0 +1,122 @@
+G95 module created on Wed Jan 19 17:04:38 2022 from fij.f95
+If you edit this, you'll get what you deserve.
+module-version 9
+(() () () () () () () () () () () () () () () () () () () () ())
+
+()
+
+()
+
+()
+
+()
+
+(2 'atan' '(intrinsic)' 1 ((PROCEDURE UNKNOWN INTRINSIC UNKNOWN NONE
+NONE FUNCTION) (UNKNOWN) 0 0 () () () '' () ())
+3 'b' 'fij' 1 ((PROCEDURE UNKNOWN MODULE-PROC DECL NONE NONE FUNCTION
+INVOKED) (REAL 4) 0 0 (4 NONE 5 NONE) () () '' () ())
+6 'cv' 'cv' 1 ((MODULE UNKNOWN UNKNOWN UNKNOWN NONE NONE) (UNKNOWN) 0 0
+() () () '' () ())
+7 'd' 'util' 1 ((PROCEDURE UNKNOWN MODULE-PROC DECL NONE NONE FUNCTION)
+(REAL 4) 0 0 (8 NONE 9 NONE 10 NONE 11 NONE) () () '' () ())
+12 'deltapaso' 'fij' 1 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE) (
+REAL 4) 0 0 () () () '' () ())
+13 'dentrocv' 'cv' 1 ((PROCEDURE UNKNOWN MODULE-PROC DECL NONE NONE
+FUNCTION) (LOGICAL 8) 0 0 (14 NONE 15 NONE 16 NONE 17 NONE 18 NONE 19
+NONE) () () '' () ())
+20 'e' 'util' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE) (REAL 4)
+0 0 () (CONSTANT (REAL 4) 0 '11401300' 0 128) () () '' () ())
+21 'ek' 'util' 1 ((PROCEDURE UNKNOWN MODULE-PROC DECL NONE NONE FUNCTION)
+(REAL 4) 0 0 (22 NONE 23 NONE) () () '' () ())
+24 'fev' 'fij' 1 ((PROCEDURE UNKNOWN MODULE-PROC DECL NONE NONE
+SUBROUTINE) (PROCEDURE 0) 0 0 (25 NONE 26 NONE 27 NONE 28 NONE 29 NONE
+30 NONE 31 NONE 32 NONE 33 NONE) () () '' () ())
+34 'fev0' 'fij' 1 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE) (REAL 4)
+0 0 () () () '' () ())
+35 'fij' 'fij' 1 ((MODULE UNKNOWN UNKNOWN UNKNOWN NONE NONE) (UNKNOWN) 0
+0 () () () '' () ())
+36 'log' '(intrinsic)' 1 ((PROCEDURE UNKNOWN INTRINSIC UNKNOWN NONE NONE
+FUNCTION) (UNKNOWN) 0 0 () () () '' () ())
+37 'norm' 'util' 1 ((PROCEDURE UNKNOWN MODULE-PROC DECL NONE NONE
+FUNCTION INVOKED) (REAL 4) 0 0 (38 NONE) () () '' () ())
+39 'pi' 'util' 1 ((PARAMETER UNKNOWN UNKNOWN UNKNOWN NONE NONE) (REAL 4)
+0 0 () (CONSTANT (REAL 4) 0 '13176795' 0 128) () () '' () ())
+40 'rcv' 'cv' 1 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE) (REAL 4) 0
+0 () () () '' () ())
+41 'sigma' 'fij' 1 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE) (REAL 4)
+0 0 () () () '' () ())
+42 'thetacv' 'cv' 1 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE) (REAL
+4) 0 0 () () () '' () ())
+43 'uev' 'fij' 1 ((PROCEDURE UNKNOWN MODULE-PROC DECL NONE NONE FUNCTION)
+(REAL 4) 0 0 (44 NONE 45 NONE 46 NONE 47 NONE 48 NONE 49 NONE) () () ''
+() ())
+50 'util' 'util' 1 ((MODULE UNKNOWN UNKNOWN UNKNOWN NONE NONE) (UNKNOWN)
+0 0 () () () '' () ())
+51 'v000' 'cv' 1 ((VARIABLE UNKNOWN UNKNOWN UNKNOWN NONE NONE) (REAL 4)
+0 0 () () () '' () ())
+49 'v0y' '' 52 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0
+0 () () () '' () ())
+48 'v0x' '' 52 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0
+0 () () () '' () ())
+47 'y0' '' 52 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0
+0 () () () '' () ())
+46 'x0' '' 52 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0
+0 () () () '' () ())
+45 'y' '' 52 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0 0
+() () () '' () ())
+44 'x' '' 52 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0 0
+() () () '' () ())
+38 'v' '' 53 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY) (
+REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+33 'fevv' '' 54 ((VARIABLE OUT UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY)
+(REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+32 'v0y' '' 54 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0
+0 () () () '' () ())
+31 'v0x' '' 54 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0
+0 () () () '' () ())
+30 'vy' '' 54 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0
+0 () () () '' () ())
+29 'vx' '' 54 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0
+0 () () () '' () ())
+28 'y0' '' 54 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0
+0 () () () '' () ())
+27 'x0' '' 54 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0
+0 () () () '' () ())
+26 'y' '' 54 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0 0
+() () () '' () ())
+25 'x' '' 54 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0 0
+() () () '' () ())
+23 'vy' '' 55 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0
+0 () () () '' () ())
+22 'vx' '' 55 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0
+0 () () () '' () ())
+19 'v0y' '' 56 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0
+0 () () () '' () ())
+18 'v0x' '' 56 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0
+0 () () () '' () ())
+17 'y0' '' 56 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0
+0 () () () '' () ())
+16 'x0' '' 56 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0
+0 () () () '' () ())
+15 'y' '' 56 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0 0
+() () () '' () ())
+14 'x' '' 56 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0 0
+() () () '' () ())
+11 'y0' '' 57 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0
+0 () () () '' () ())
+10 'x0' '' 57 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0
+0 () () () '' () ())
+9 'y' '' 57 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0 0
+() () () '' () ())
+8 'x' '' 57 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DUMMY) (REAL 4) 0 0
+() () () '' () ())
+5 'vj' '' 58 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY) (
+REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+4 'rij' '' 58 ((VARIABLE IN UNKNOWN UNKNOWN NONE NONE DIMENSION DUMMY) (
+REAL 4) 0 0 () (1 ASSUMED_SHAPE () ()) () '' () ())
+)
+
+('atan' 0 2 'b' 0 3 'cv' 0 6 'd' 0 7 'deltapaso' 0 12 'dentrocv' 0 13 'e'
+0 20 'ek' 0 21 'fev' 0 24 'fev0' 0 34 'fij' 0 35 'log' 0 36 'norm' 0 37
+'pi' 0 39 'rcv' 0 40 'sigma' 0 41 'thetacv' 0 42 'uev' 0 43 'util' 0 50
+'v000' 0 51)
