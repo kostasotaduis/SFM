@@ -1,0 +1,30 @@
+
+
+*******************************************************************************
+Tue Jan 18 17:07:43 2022
+
+
+FIT:    data read from "puerta.dat" using 1:2 every 5
+        format = x:z
+        #datapoints = 80
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   c            
+   0 4.6669231403e+02   0.00e+00  1.00e+00    1.000000e+00
+   3 7.9909363940e+01  -1.15e-06  1.00e-03   -1.198815e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 79.9094
+rel. change during last iteration : -1.15242e-11
+
+degrees of freedom    (FIT_NDF)                        : 79
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.00574
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.01151
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+c               = -1.19881         +/- 0.1124       (9.38%)
